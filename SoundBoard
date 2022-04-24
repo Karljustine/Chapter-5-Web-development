@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title> Soundboard </title>
+
+</head>
+<html>
+<body>
+
+    <link rel="stylesheet" href="StyleSheet2.css" />
+
+    <h1> Alan Partridge Soundboard </h1>
+    <h4> Alan Gordon Partridge is a comedy character portrayed by the English actor Steve Coogan. A parody of British television personalities, Partridge is a tasteless and inept right-wing broadcaster whose inflated sense of celebrity drives him to treachery and shameless self-promotion W</h4>
+
+
+    <audio id="sound1" src="ah-ha.mp3"></audio>
+    <audio id="sound2" src="dan.mp3"></audio>
+    <audio id="sound3" src="back-of-the-net.mp3"></audio>
+    <audio id="sound4" src="bang-out-of-order.mp3"></audio>
+    <audio id="sound5" src="jurassic-park.mp3"></audio>
+
+
+
+    <audio id="sound6" src="smell-my-cheese.mp3"></audio>
+    <audio id="sound7" src="goal.mp3"></audio>
+    <audio id="sound8" src="kiss-my-face2.mp3"></audio>
+    <audio id="sound9" src="hello-partridge.mp3"></audio>
+
+
+
+    <!-- buttons -->
+    <button onclick="document.getElementById('sound1').play()">       Ah-Ha     </button>
+    <button onclick="document.getElementById('sound2').play()">        Dan      </button>
+    <button onclick="document.getElementById('sound3').play()"> Back Of The Net </button>
+    <button onclick="document.getElementById('sound4').play()">bang out of order</button>
+    <button onclick="document.getElementById('sound5').play()">  Jurassic park  </button>
+
+
+    <button onclick="document.getElementById('sound6').play()">  Smell my cheese</button>
+    <button onclick="document.getElementById('sound7').play()">       Goal      </button>
+    <button onclick="document.getElementById('sound8').play()">   Kiss my Face  </button>
+    <button onclick="document.getElementById('sound9').play()"> Hello partridge </button>
+
+    <!--footer-->
+    <footer>
+     
+        Instagram : @ShaiiFNS   twitter : @ShaiiFNS  
+    </footer>
+</body>
+
+
+</html>
+
+
+- CSS CODE - 
+
+h1 {
+    border-style: solid;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 80px;
+    margin-top: auto;
+    background-color: #4CAF50;
+}
+
+body {
+    margin: auto;
+    background-color: #FFE77AFF;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 150px;
+    display: block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 50px;
+}
+
+button {
+    background-color: #FFE77AFF;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+/*button change color*/
+    button:hover { 
+        background-color: #4CAF50;
+        color: white;
+    }
+
+/*footer*/
+footer {
+    background-color: #4CAF50;
+    
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+    
+}
