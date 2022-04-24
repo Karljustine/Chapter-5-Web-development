@@ -7,19 +7,63 @@
     <title> Embed Video </title>
 </head>
 <body>
+    <link rel="stylesheet" href="StyleSheet2.css" />
 
-        <center>
-            <video width="640" height="480" controls loop> <!-- Video Loop Feature -->
-                
+    <h2> Embeding Video </h2>
+
+    <center>
+        <video width="1280" height="480" controls loop>
+            <!-- Video Loop Feature -->
 
 
-                <source src="Sample Video.mp4" type="video/mp4">
-                <source src="Sample Video.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video> 
-        </center>
-        
+
+            <source src="Sample Video.mp4" type="video/mp4">
+            <source src="Sample Video.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </center>
+
+    <footer>
+        <!-- Links -->
+        <a href="https://www.instagram.com/shaiifns/">Instagram : @ShaiiFNS</a>     <a href="https://twitter.com/ShaiiFNS">twitter :  @ShaiiFNS</a>
+
+
+    </footer>
+
+
 </body>
 </html>
 
 
+-- CSS CODE -- 
+
+/* Header */
+h2 {
+    border-style: solid;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 80px;
+    margin-top: auto;
+    background-color: #4CAF50;
+    width: auto;
+}
+
+body {
+    margin: auto;
+    background-color: #FFE77AFF;
+}
+
+/* Hover effect for inks */
+a:hover {
+    background-color: white;
+}
+
+/*footer*/
+footer {
+    background-color: #4CAF50;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px 0px;
+}
